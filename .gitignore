@@ -1,0 +1,8 @@
+data/raw/
+*.csv
+*.zip
+!data/processed/ev_charging_sampled.csv
+__pycache__/
+*.pkl
+.ipynb_checkpoints/
+.env
