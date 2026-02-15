@@ -2,7 +2,7 @@ data/raw/
 *.csv
 *.zip
 !data/processed/ev_charging_sampled.csv
-# !data/processed/ev_charging_processed.csv
+!data/processed/ev_charging_processed.csv
 __pycache__/
 .ipynb_checkpoints/
 .env
