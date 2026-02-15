@@ -4,6 +4,5 @@ data/raw/
 !data/processed/ev_charging_sampled.csv
 # !data/processed/ev_charging_processed.csv
 __pycache__/
-*.pkl
 .ipynb_checkpoints/
 .env
