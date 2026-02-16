@@ -46,8 +46,9 @@ EV_Charging_Intelligence/
 ├── models/
 │   └── demand_predictor.pkl # Trained model artifact
 ├── report/
-│   ├── system_architecture.mermaid # System diagram
-│   └── model_evaluation_report.md  # Detailed metrics
+│   ├── report.tex          # LaTeX source for Report & Architecture
+│   ├── system_architecture.mermaid # (Deprecated) System diagram
+│   └── model_evaluation_report.md  # (Deprecated) Detailed metrics
 ├── src/
 │   ├── app.py              # Streamlit dashboard application
 │   ├── data_preprocessing.py # EtL script

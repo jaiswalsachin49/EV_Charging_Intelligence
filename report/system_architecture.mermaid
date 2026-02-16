@@ -9,16 +9,17 @@ graph TD
         D --> E[Split Train/Test]
         E --> F[Random Forest Regressor]
         F -- Hyperparameter Tuning --> G[Final Model]
-        G -- Validate (R2, RMSE) --> H[(Saved .pkl)]
+        G -- "Validate (R2, RMSE)" --> H[("Saved .pkl")]
     end
 
     subgraph Application
         I[Streamlit UI] -- Adjust Parameters --> J[Input Processing]
-        H -. Load .pkl .-> K[Inference Engine]
-        J --> K
+        J --> K[Inference Engine]
         K --> L[Prediction Output]
         L --> M[Visualization & Insights]
     end
+
+    H -. "Load .pkl" .-> K
 
     style A fill:#f9f,stroke:#333,stroke-width:2px
     style F fill:#bbf,stroke:#333,stroke-width:2px
