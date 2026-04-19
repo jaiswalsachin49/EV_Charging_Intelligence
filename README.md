@@ -125,6 +125,8 @@ EV_Charging_Intelligence/
 ├── requirements.txt              # All dependencies
 └── README.md                     # This file
 ```
+### Architecture Diagram
+![alt text](image.png)
 
 ### 5. AI Reasoning & Groq Integration
 
